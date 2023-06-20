@@ -46,7 +46,7 @@ export default function Header({}: Props) {
         opacity: 1,
         scale: 1,
       }}
-      transition={{ duration: 1}}
+      transition={{ duration: 1.5}}
       
       className='flex flex-row items-center text-gray-300 cursor-pointer'>
         <SocialIcon
