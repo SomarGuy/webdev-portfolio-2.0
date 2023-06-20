@@ -15,6 +15,9 @@ export default function Hero({}: Props) {
   delaySpeed: 2500,
   });
   return <div>
-    <p>{text}</p>
+    <h1>
+      <span>{text}</span>
+      <Cursor cursorColor='#7DE2D1'></Cursor>
+    </h1>
   </div>;
 }
