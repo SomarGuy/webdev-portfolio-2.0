@@ -27,6 +27,13 @@ export default function Hero({}: Props) {
       <span className='mr-3'>{text}</span>
       <Cursor cursorColor='#7DE2D1'></Cursor>
     </h1>
+
+    <div>
+      <button>About</button>
+      <button>Experience</button>
+      <button>Skills</button>
+      <button>Projects</button>
+    </div>
       </div>
   </div>
   );
