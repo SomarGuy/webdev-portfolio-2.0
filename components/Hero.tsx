@@ -22,6 +22,7 @@ export default function Hero({}: Props) {
       src="https://cdn.discordapp.com/attachments/680645066984783881/1121536405466779750/image.png" 
       alt="" />
       <div>
+        <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>Software Engineer</h2>
       <h1>
       <span>{text}</span>
       <Cursor cursorColor='#7DE2D1'></Cursor>
