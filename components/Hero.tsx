@@ -29,10 +29,10 @@ export default function Hero({}: Props) {
     </h1>
 
     <div>
-      <button>About</button>
-      <button>Experience</button>
-      <button>Skills</button>
-      <button>Projects</button>
+      <button className='heroButton'>About</button>
+      <button className='heroButton'>Experience</button>
+      <button className='heroButton'>Skills</button>
+      <button className='heroButton'>Projects</button>
     </div>
       </div>
   </div>
