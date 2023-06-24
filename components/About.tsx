@@ -27,6 +27,7 @@ function About({}: Props) {
 
      <div className='space-y-10 px-0 md:px-10'>
       <h4 className='text-4xl font-semibold'>My <span className='underline decoration-[#7DE2D1]/50'>Journey</span> So Far</h4>
+      <p>Hey! I'm Diogo Ramos 🐋, a Full-Stack Web Developer based in Toronto with a solid foundation in computer science and 5 years of experience in web development. Graduated from Lighthouse Labs' Full Stack Web Development Bootcamp and Western Technical Commercial School's Specialist High Skills Major (SHSM) program in Robotics, I've acquired an in-depth knowledge and hands-on experience with modern web technologies. My technical expertise ranges from programming languages such as TypeScript, JavaScript, Arduino, Java, Ruby, Python, to web development technologies like HTML, CSS, PHP, React, Node.js, Express, Vite, Next.js, and Tailwind CSS. I also have experience with Unit Testing using tools like Jest, Mocha, and Cypress, and Database Management with PostgreSQL, Ruby-on-Rails, and SQL. Always eager to leverage my technical expertise and problem-solving abilities to contribute to impactful missions. I thrive in fast-paced, rapidly changing environments and believe in building software that offers great user experience! ⭐</p>
      </div>
     </div>
   )
