@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 
 type Props = {}
 
@@ -10,7 +11,15 @@ function About({}: Props) {
         About
       </h3>
 
-      
+      <motion.img
+      initial={{
+        x: -200,
+      }}
+      whileInView={{
+        x: 0
+      }}
+      src='https://cdn.discordapp.com/attachments/680645066984783881/1122008657836654632/B5623A99-586D-452B-BDB2-DF4C196200BD_1_105_c.jpeg'
+      />
     </div>
   )
 }
