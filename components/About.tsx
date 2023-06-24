@@ -24,6 +24,10 @@ function About({}: Props) {
       src='https://cdn.discordapp.com/attachments/680645066984783881/1122008657836654632/B5623A99-586D-452B-BDB2-DF4C196200BD_1_105_c.jpeg'
       className='-mb-20 md:mb0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
      />
+
+     <div className='space-y-10 px-0 md:px-10'>
+      <h4 className='text-4xl font-semibold'>My <span className='underline decoration-[#7DE2D1]/50'>Journey</span> So Far</h4>
+     </div>
     </div>
   )
 }
