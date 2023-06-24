@@ -14,12 +14,16 @@ function About({}: Props) {
       <motion.img
       initial={{
         x: -200,
+        opacity: 0,
       }}
-      whileInView={{
-        x: 0
+      transition={{
+        duration: 1.2,
       }}
+      whileInView={{ opacity: 1, x: 0}}
+      viewport={{ once: true }}
       src='https://cdn.discordapp.com/attachments/680645066984783881/1122008657836654632/B5623A99-586D-452B-BDB2-DF4C196200BD_1_105_c.jpeg'
-      />
+      className='-mb-20 md:mb0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
+     />
     </div>
   )
 }
