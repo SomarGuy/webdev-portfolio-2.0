@@ -6,7 +6,7 @@ type Props = {}
 function ExperienceCard({}: Props) {
   return (
     <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px]
-    md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-3 hover:opacity-100
+    md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100
     opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
       <motion.img
       initial={{
@@ -16,7 +16,7 @@ function ExperienceCard({}: Props) {
       transition={{ duration: 1.2 }}
       whileInView={{ opacity: 1, y: 0}}
       viewport={{ once: true }}
-      className='w-32 h-32 rounded-full xl:w-[200px] object-cover
+      className='w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover
       object-center' 
       src="https://img.freepik.com/free-vector/freelancer-flexible-remote-work-locations-isometric-flowchart-with-shared-office-writing-home-outdoor-with-laptop-vector-illustration_1284-30324.jpg?w=2000" 
       alt="" 
