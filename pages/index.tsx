@@ -25,7 +25,7 @@ const Home: NextPage = () => {
       </section>
 
       {/* Experience */}
-        <section>
+        <section id='experience' className='snap-center'>
           <WorkExperience />
         </section>
       {/* Skills */}
