@@ -4,32 +4,44 @@ import { motion } from 'framer-motion'
 type Props = {}
 
 function ExperienceCard({}: Props) {
-  return <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px]'>
-    <motion.img
-    initial={{
-      y: -100,
-      opacity: 0,
-    }} 
-    transition={{ duration: 1.2 }}
-    whileInView={{ opacity: 1, y: 0}}
-    viewport={{ once: true }}
-    className='w-32 h-32 rounded-full md:rounded-full xl:w-[200px] xl:h-[200px]
-    object-cover object-center'
-    src="https://media.licdn.com/dms/image/C4E0BAQH3nUDO57s78A/company-logo_200_200/0/1531936161449?e=1695859200&v=beta&t=N7WHifromNrxOyf5uY96n3ck3ZWyjlk2ndvBV-JgWVU" 
-    alt="" />
+  return (
+    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px]
+    md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-3 hover:opacity-100
+    opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
+      <motion.img
+      initial={{
+        y: -100,
+        opacity: 0,
+      }}
+      transition={{ duration: 1.2 }}
+      whileInView={{ opacity: 1, y: 0}}
+      viewport={{ once: true }}
+      className='w-32 h-32 rounded-full xl:w-[200px] object-cover
+      object-center' 
+      src="https://img.freepik.com/free-vector/freelancer-flexible-remote-work-locations-isometric-flowchart-with-shared-office-writing-home-outdoor-with-laptop-vector-illustration_1284-30324.jpg?w=2000" 
+      alt="" 
+    />
 
     <div className='px-0 md:px-10'>
       <h4 className='text-4xl font-light'>Full-Stack Web Developer</h4>
-      <p className='font-bold text-2xl mt-1'>Freelance</p>
+      <p className='font-bold text-2xl mt-1'>Self Employed</p>
       <div className='flex space-x-2 my-2'>
-        <img className='h-10 w-10 rounded-full' src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" alt="" />
-        {/* Tech used */}
-        {/* Tech used */}
-        {/* Tech used */}
-        {/* Tech used */}
-        {/* Tech used */}
-        {/* Tech used */}
-        {/* Tech used */}
+        <img 
+        className='h-10 w-10 rounded-full'
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" 
+        alt="" />
+        <img 
+        className='h-10 w-10 rounded-full'
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" 
+        alt="" />
+        <img 
+        className='h-10 w-10 rounded-full'
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" 
+        alt="" />
+        <img 
+        className='h-10 w-10 rounded-full'
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" 
+        alt="" />
       </div>
       <p className='uppercase py-5 text-gray-300'>Started work... - Ended...</p>
 
@@ -41,7 +53,8 @@ function ExperienceCard({}: Props) {
         <li>Summary points</li>
       </ul>
     </div>
-  </article>
+    </article>
+  )
 }
 
 export default ExperienceCard
