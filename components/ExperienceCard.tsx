@@ -28,22 +28,22 @@ function ExperienceCard({}: Props) {
       <div className='flex space-x-2 my-2'>
         <img 
         className='h-8 w-8 rounded-full'
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" 
+        src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/erkxwhl1gd48xfhe2yld" 
         alt="" />
         <img 
         className='h-8 w-8 rounded-full'
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" 
+        src="https://w7.pngwing.com/pngs/452/24/png-transparent-js-logo-node-logos-and-brands-icon.png" 
         alt="" />
         <img 
         className='h-8 w-8 rounded-full'
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" 
+        src="https://cdn.iconscout.com/icon/free/png-256/free-react-1-282599.png?f=webp" 
         alt="" />
         <img 
         className='h-8 w-8 rounded-full'
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" 
+        src="https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png" 
         alt="" />
       </div>
-      <p className='uppercase py-3 text-gray-300'>Started work... - Ended...</p>
+      <p className='uppercase py-3 text-gray-300'>Started September 2017... - Current...</p>
 
       <ul className='list-disc space-y-2 ml-3 text-lg'>
         <li>Summary points</li>
