@@ -31,7 +31,7 @@ function About({}: Props) {
 
      <div className='mt-10 sm:mt-0 space-y-6 px-0 sm:px-10'>
       <h4 className='text-3xl md:text-4xl font-semibold'>My <span className='underline decoration-[#7DE2D1]/50'>Journey</span> So Far</h4>
-      <p>Hi! I'm Diogo Ramos 🐋, a Toronto-based Full-Stack Web Developer with a computer science background and 5 years of experience. I graduated from Lighthouse Labs' Full Stack Web Development Bootcamp and the Robotics program at Western Technical Commercial School. I'm proficient in various languages like TypeScript, JavaScript, Arduino, Java, Ruby, Python, and technologies such as HTML, CSS, PHP, React, Node.js, Express, Vite, Next.js, and Tailwind CSS. I'm skilled in Unit Testing using Jest, Mocha, Cypress, and Database Management with PostgreSQL, Ruby-on-Rails, and SQL. I excel in dynamic environments and aim to build user-friendly software. ⭐</p>
+      <p>Hi! I'm Diogo Ramos 🐋, a Toronto-based Full-Stack Web Developer with a computer science background and 5 years of programming experience. I graduated from Lighthouse Labs' Full Stack Web Development Bootcamp and the Robotics program at Western Technical Commercial School. I'm proficient in various languages like TypeScript, JavaScript, Arduino, Java, Ruby, Python, and technologies such as HTML, CSS, PHP, React, Node.js, Express, Vite, Next.js, and Tailwind CSS. I'm skilled in Unit Testing using Jest, Mocha, Cypress, and Database Management with PostgreSQL, Ruby-on-Rails, and SQL. I excel in dynamic environments and aim to build user-friendly software.⭐</p>
      </div>
     </motion.div>
   )
