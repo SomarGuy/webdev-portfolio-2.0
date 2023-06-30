@@ -19,13 +19,17 @@ function Projects({}: Props) {
           />
 
           <div>
-            <h4>Case Study {i + 1} of {projects.length}: Job Search Platform</h4>
+            <h4 className='text-4xl font-semibold text-center'>
+              <span className='underline decoration-[#7DE2D1]/50 '>Case Study {i + 1} of {projects.length}:
+              </span>{" "}
+              Job Search Platform
+            </h4>
           </div>
         </div>
         ))}
       </div>
 
-      <div className='w-full absolute top-[30%] bg-[#F7aB0A]/10 left-0 h-[500px] -skew-y-12' />
+      <div className='w-full absolute top-[30%] bg-[#7DE2D1]/10 left-0 h-[500px] -skew-y-12' />
       </div>
   );
 }
