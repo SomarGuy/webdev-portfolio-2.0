@@ -12,10 +12,11 @@ function Projects({}: Props) {
 
       <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20'>
         {projects.map((project, i) => (
-          <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'>
+          <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center pt-[240px] md:pt-[210px] lg:pt-[190px] xl:pt-[175px] 2xl:pt-[88px]'>
             <img 
-            src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" 
+            src="https://github.com/Ruheee/Talento/raw/master/assets/homepage.png" 
             alt="" 
+            style={{ width: "40%", height: "auto" }}
           />
 
           <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
@@ -32,7 +33,7 @@ function Projects({}: Props) {
       </div>
 
       <div className='w-full absolute top-[30%] bg-[#7DE2D1]/10 left-0 h-[500px] -skew-y-12' />
-      </div>
+    </div>
   );
 }
 
