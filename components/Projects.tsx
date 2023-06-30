@@ -18,12 +18,14 @@ function Projects({}: Props) {
             alt="" 
           />
 
-          <div>
+          <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
             <h4 className='text-4xl font-semibold text-center'>
               <span className='underline decoration-[#7DE2D1]/50 '>Case Study {i + 1} of {projects.length}:
               </span>{" "}
               Job Search Platform
             </h4>
+
+            <p className='text-lg text-center md:text-left'>Talento is a revolutionary job search platform that leverages the swipe mechanic from popular dating apps to streamline the job hunting process for both employers and job seekers.</p>
           </div>
         </div>
         ))}
