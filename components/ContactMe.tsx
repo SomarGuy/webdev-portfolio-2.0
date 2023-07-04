@@ -16,7 +16,7 @@ function ContactMe({}: Props) {
           <span className='decoration-[#7DE2D1]/50 underline'>Let's Talk.</span>
         </h4>
 
-        <div>
+        <div className='space-y-10'>
           <div className='flex items-center space-x-5 justify-center'>
           <PhoneIcon className='text-[#7DE2D1] h-7 w-7 animate-pulse' />
           <p className='text-2xl'>+6479995995</p>
@@ -25,6 +25,12 @@ function ContactMe({}: Props) {
           <div className='flex items-center space-x-5 justify-center'>
           <MapPinIcon className='text-[#7DE2D1] h-7 w-7 animate-pulse' />
           <p className='text-2xl'>Toronto, ON</p>
+          </div>
+
+          <div className='flex items-center space-x-5 justify-center'>
+          <EnvelopeIcon
+          className='text-[#7DE2D1] h-7 w-7 animate-pulse' />
+          <p className='text-2xl'>diogo.ramos@me.com</p>
           </div>
         </div>
       </div>
