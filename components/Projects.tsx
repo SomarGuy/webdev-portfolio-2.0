@@ -16,7 +16,13 @@ function Projects({}: Props) {
       <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20'>
         {projects.map((project, i) => (
           <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center pt-[240px] md:pt-[210px] lg:pt-[190px] xl:pt-[175px] 2xl:pt-[88px]'>
-            <img 
+            <motion.img 
+            initial={{
+              y: -300,
+            }}
+            transition={{ duration: 1.2 }}
+            whileInView={{ opacity: 1, y: 0}}
+            viewport={{ once: true }}
             src="https://github.com/Ruheee/Talento/raw/master/assets/homepage.png" 
             alt="" 
             style={{ width: "40%", height: "auto" }}
