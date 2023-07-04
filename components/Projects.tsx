@@ -19,6 +19,7 @@ function Projects({}: Props) {
             <motion.img 
             initial={{
               y: -300,
+              opacity: 0
             }}
             transition={{ duration: 1.2 }}
             whileInView={{ opacity: 1, y: 0}}
