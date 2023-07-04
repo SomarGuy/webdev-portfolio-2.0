@@ -8,6 +8,15 @@ function ContactMe({}: Props) {
       <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
         Contact
       </h3>
+
+      <div>
+        <h4>
+          I have got just what you need.{" "}
+          <span className='decoration-[#7DE2D1]/50 underline'>Let's Talk.</span>
+
+
+        </h4>
+      </div>
     </div>
   )
 }
