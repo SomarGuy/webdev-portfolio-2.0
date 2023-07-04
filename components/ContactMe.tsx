@@ -19,7 +19,12 @@ function ContactMe({}: Props) {
         <div>
           <div className='flex items-center space-x-5 justify-center'>
           <PhoneIcon className='text-[#7DE2D1] h-7 w-7 animate-pulse' />
-          <p>+6479995995</p>
+          <p className='text-2xl'>+6479995995</p>
+          </div>
+
+          <div className='flex items-center space-x-5 justify-center'>
+          <MapPinIcon className='text-[#7DE2D1] h-7 w-7 animate-pulse' />
+          <p className='text-2xl'>Toronto, ON</p>
           </div>
         </div>
       </div>
