@@ -17,7 +17,10 @@ function ContactMe({}: Props) {
         </h4>
 
         <div>
-          <PhoneIcon />
+          <div className='flex items-center space-x-5 justify-center'>
+          <PhoneIcon className='text-[#7DE2D1] h-7 w-7 animate-pulse' />
+          <p>+6479995995</p>
+          </div>
         </div>
       </div>
     </div>
