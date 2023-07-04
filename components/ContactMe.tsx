@@ -35,13 +35,14 @@ function ContactMe({}: Props) {
         </div>
 
         <form className='flex flex-col space-y-2 w-fit mx-auto'>
-          <div>
-            <input type="text" />
+          <div className='flex space-x-2'>
+            <input className='contactInput' type="text" />
+            <input className='contactInput' type="text" />
           </div>
 
-          <input type="text" />
+          <input className='contactInput' type="text" />
 
-          <textarea/>
+          <textarea className='contactInput' />
           <button>Submit</button>
         </form>
       </div>
