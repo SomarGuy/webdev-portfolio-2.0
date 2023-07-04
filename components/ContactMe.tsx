@@ -33,6 +33,17 @@ function ContactMe({}: Props) {
           <p className='text-2xl'>diogo.ramos@me.com</p>
           </div>
         </div>
+
+        <form className='flex flex-col space-y-2 w-fit mx-auto'>
+          <div>
+            <input type="text" />
+          </div>
+
+          <input type="text" />
+
+          <textarea/>
+          <button>Submit</button>
+        </form>
       </div>
     </div>
   )
